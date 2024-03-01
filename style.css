@@ -1,0 +1,9 @@
+body {
+    display:grid;
+}
+@media screen and  (min-width:650px){
+    main{
+        display: grid
+        grid-template-column:1fr 1fr 1fr
+    }
+}
